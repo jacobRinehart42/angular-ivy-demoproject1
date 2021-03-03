@@ -9,7 +9,7 @@ import { MatCardModule } from "@angular/material/card";
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [AppComponent, HelloComponent],
-  bootstrap: [AppComponent],
-  MatCardModule
+  bootstrap: [AppComponent]
+  
 })
 export class AppModule {}
